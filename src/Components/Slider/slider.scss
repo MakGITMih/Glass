@@ -1,0 +1,33 @@
+@import '../Styles/index.scss';
+@import 'swiper/scss';
+
+
+
+
+
+
+
+
+.swiper{
+    @extend %container-main;  
+     text-align: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.swiper-button-prev:after {
+    // color: $color-one;
+}
+
+.swiper-button-next:after {
+    // color: $color-one;
+}
+
+.swiper-pagination-fraction {
+    // color: $color-one!important;
+}

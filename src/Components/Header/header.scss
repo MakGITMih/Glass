@@ -1,0 +1,44 @@
+@import '../Styles/index.scss';
+
+.header {
+    @extend %container-main;
+   background: linear-gradient( 360deg,rgba(0, 96, 254, 0.80) 0%, #0060FE 100%);
+    width: 100%;
+ 
+    ul {
+
+        li {
+            // font-style: normal;
+            // font-weight: 700;
+            position: relative;
+            cursor: pointer;
+            margin: 5px 5px;
+
+            &:after {
+                display: block;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%); //из центра в стороны
+                // left: 0; если вместо left: 50%; и transform: translateX(-50%); будет слева направо
+                /*изменить на right:0;, чтобы изменить направление подчёркивания */
+                //Верхнее плавное подчеркивание: Вместо :after в стилях, используйте :before
+                width: 0;
+                /*задаём длинну линии до наведения курсора*/
+                height: 4px;
+                /*задаём ширину линии*/
+                // background-color: $color-one;
+                /*задаём цвет линии*/
+                content: "";
+                transition: width 0.3s ease-out;
+                /*задаём время анимации*/
+            }
+
+            &:hover:after,
+            &:focus:after {
+                width: 100%;
+                /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+            }
+
+        }
+    }
+}

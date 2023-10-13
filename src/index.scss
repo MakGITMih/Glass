@@ -1,0 +1,15 @@
+@import'./Components/Assets/Fonts';
+@import './Components/Styles/';
+
+.App {
+  @extend %container-main;
+  display: flex;
+  flex-direction: column; //footer к низу экрана
+  min-height: 100vh;
+}
+
+body {
+  font-family: 'NeueMontreal', sans-serif;
+  font-weight:450;
+}
+

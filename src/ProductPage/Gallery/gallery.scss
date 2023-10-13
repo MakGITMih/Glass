@@ -1,0 +1,5 @@
+@import '../../Components/Styles/index.scss';
+
+.gallery {
+    @extend %container-main;
+}

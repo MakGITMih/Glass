@@ -1,0 +1,7 @@
+@import '../Styles/index.scss';
+
+.footer {
+    @extend %container-main;
+    margin-top: auto; //прижал футер к низу экрана 
+}
+
