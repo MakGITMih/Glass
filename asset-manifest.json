@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Glass/static/css/main.c4b4e28b.css",
-    "main.js": "/Glass/static/js/main.3b0fa432.js",
+    "main.css": "/Glass/static/css/main.85fca9d1.css",
+    "main.js": "/Glass/static/js/main.b7998913.js",
     "static/media/slider4.jpg": "/Glass/static/media/slider4.20a79048cdcd77f78ff1.jpg",
     "static/media/slider3.jpg": "/Glass/static/media/slider3.d20e66d9c735157f39e8.jpg",
     "static/media/slider2.jpg": "/Glass/static/media/slider2.81848168f755c8ab678a.jpg",
@@ -10,11 +10,11 @@
     "static/media/NeueMontreal-Regular.woff2": "/Glass/static/media/NeueMontreal-Regular.7b5a8273648a9482e29f.woff2",
     "static/media/NeueMontreal-Bold.woff2": "/Glass/static/media/NeueMontreal-Bold.619088c231a5535fe2ec.woff2",
     "index.html": "/Glass/index.html",
-    "main.c4b4e28b.css.map": "/Glass/static/css/main.c4b4e28b.css.map",
-    "main.3b0fa432.js.map": "/Glass/static/js/main.3b0fa432.js.map"
+    "main.85fca9d1.css.map": "/Glass/static/css/main.85fca9d1.css.map",
+    "main.b7998913.js.map": "/Glass/static/js/main.b7998913.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4b4e28b.css",
-    "static/js/main.3b0fa432.js"
+    "static/css/main.85fca9d1.css",
+    "static/js/main.b7998913.js"
   ]
 }
