@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Glass/static/css/main.c4b4e28b.css",
-    "main.js": "/Glass/static/js/main.fa11bb7d.js",
+    "main.js": "/Glass/static/js/main.3b0fa432.js",
     "static/media/slider4.jpg": "/Glass/static/media/slider4.20a79048cdcd77f78ff1.jpg",
     "static/media/slider3.jpg": "/Glass/static/media/slider3.d20e66d9c735157f39e8.jpg",
     "static/media/slider2.jpg": "/Glass/static/media/slider2.81848168f755c8ab678a.jpg",
@@ -11,10 +11,10 @@
     "static/media/NeueMontreal-Bold.woff2": "/Glass/static/media/NeueMontreal-Bold.619088c231a5535fe2ec.woff2",
     "index.html": "/Glass/index.html",
     "main.c4b4e28b.css.map": "/Glass/static/css/main.c4b4e28b.css.map",
-    "main.fa11bb7d.js.map": "/Glass/static/js/main.fa11bb7d.js.map"
+    "main.3b0fa432.js.map": "/Glass/static/js/main.3b0fa432.js.map"
   },
   "entrypoints": [
     "static/css/main.c4b4e28b.css",
-    "static/js/main.fa11bb7d.js"
+    "static/js/main.3b0fa432.js"
   ]
 }
