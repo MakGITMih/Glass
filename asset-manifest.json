@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/Glass/static/css/main.85fca9d1.css",
-    "main.js": "/Glass/static/js/main.b7998913.js",
+    "main.css": "/Glass/static/css/main.93936a0a.css",
+    "main.js": "/Glass/static/js/main.98081e1a.js",
+    "static/media/skyscraper.jpg": "/Glass/static/media/skyscraper.bfaaef2732949e3b014c.jpg",
     "static/media/slider4.jpg": "/Glass/static/media/slider4.20a79048cdcd77f78ff1.jpg",
+    "static/media/home.jpg": "/Glass/static/media/home.bd2a94b5a4445300956d.jpg",
+    "static/media/fakhverk.jpg": "/Glass/static/media/fakhverk.9183e478999f36c65eb0.jpg",
     "static/media/slider3.jpg": "/Glass/static/media/slider3.d20e66d9c735157f39e8.jpg",
     "static/media/slider2.jpg": "/Glass/static/media/slider2.81848168f755c8ab678a.jpg",
     "static/media/slider1.jpg": "/Glass/static/media/slider1.9d9bcb2eaf1b8d8c6882.jpg",
     "static/media/NeueMontreal-Medium.woff2": "/Glass/static/media/NeueMontreal-Medium.929d810ac94c5179d2a3.woff2",
     "static/media/NeueMontreal-Regular.woff2": "/Glass/static/media/NeueMontreal-Regular.7b5a8273648a9482e29f.woff2",
     "static/media/NeueMontreal-Bold.woff2": "/Glass/static/media/NeueMontreal-Bold.619088c231a5535fe2ec.woff2",
+    "static/media/window.svg": "/Glass/static/media/window.924f32e0153c3273f9d98512ff4c63d1.svg",
+    "static/media/logo.svg": "/Glass/static/media/logo.d61eaa9f7aa5dc13a54f27bfad60def7.svg",
+    "static/media/tel.svg": "/Glass/static/media/tel.86001a5dca8180bbb2058652d08c283e.svg",
     "index.html": "/Glass/index.html",
-    "main.85fca9d1.css.map": "/Glass/static/css/main.85fca9d1.css.map",
-    "main.b7998913.js.map": "/Glass/static/js/main.b7998913.js.map"
+    "main.93936a0a.css.map": "/Glass/static/css/main.93936a0a.css.map",
+    "main.98081e1a.js.map": "/Glass/static/js/main.98081e1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.85fca9d1.css",
-    "static/js/main.b7998913.js"
+    "static/css/main.93936a0a.css",
+    "static/js/main.98081e1a.js"
   ]
 }
