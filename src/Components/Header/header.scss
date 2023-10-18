@@ -1,18 +1,53 @@
 @import '../Styles/index.scss';
 
+
 .header {
     @extend %container-main;
-   background: linear-gradient( 360deg,rgba(0, 96, 254, 0.80) 0%, #0060FE 100%);
+    background: linear-gradient(360deg, rgba(0, 96, 254, 0.80) 0%, #0060FE 100%);
     width: 100%;
- 
-    ul {
+    border-radius: 16px;
+
+    &__container {
+        @extend %container-content;
+        
+    }
+
+    &__wrap-menu {
+        @extend %flex-between;
+        margin-top: 32px;
+        margin-bottom: 48px;
+        padding: 18px 30px;
+        background: $color-text-seven;
+        border-radius: 16px;
+    }
+
+    &__wrap-logo {
+        @extend %flex-center;
+        gap: 10px;
+
+        .header__logo {
+            width: 48px;
+            height: 48px;
+            flex-shrink: 0;
+        }
+
+        .header__name {
+            @extend %font-h4;
+            text-align: left
+        }
+    }
+
+    &__wrap-paragraph {
+        @extend %flex-center;
+        flex-wrap: wrap;
 
         li {
-            // font-style: normal;
-            // font-weight: 700;
+            @extend %font-h4;
+            flex-wrap: wrap;
             position: relative;
             cursor: pointer;
             margin: 5px 5px;
+            margin-left: 10px;
 
             &:after {
                 display: block;
@@ -24,13 +59,15 @@
                 //Верхнее плавное подчеркивание: Вместо :after в стилях, используйте :before
                 width: 0;
                 /*задаём длинну линии до наведения курсора*/
-                height: 4px;
+                height: 2px;
                 /*задаём ширину линии*/
-                // background-color: $color-one;
+                background: $color-text-five;
                 /*задаём цвет линии*/
                 content: "";
                 transition: width 0.3s ease-out;
                 /*задаём время анимации*/
+                bottom: -5px;
+                /*задаём отступ линии от текста*/
             }
 
             &:hover:after,
@@ -38,7 +75,118 @@
                 width: 100%;
                 /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
             }
-
         }
     }
+}
+
+
+.header {
+
+    &__wrap-title {
+        @extend %font-h1;
+        display: flex;
+        gap:10px;
+        flex-direction: column;
+        color: $color-text-one;
+    }
+
+    &__title-projects {
+        text-align: left
+    }
+
+    &__title-building {
+        text-align: center
+       
+    }
+
+    &__title-allocation {
+        @extend %font-h1;
+        color: $color-text-four;
+    }
+
+    &__title-business {
+       text-align: right;
+       margin-bottom: 118px
+    }
+}
+
+.header {
+
+    position: relative;
+    &__wrap-work {
+        // @extend %flex-between;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 5px;
+        margin-bottom: 32px;
+        
+    }
+
+    &__block {
+        @extend %flex-between;
+       
+        gap: 32px;
+    }
+
+    &__project {
+        display: flex;
+        flex-direction: column;
+        // margin-bottom: 32px;
+        z-index: 10;
+
+        img {
+             border-radius: 24px;
+             
+            width: 300px;
+            object-fit: cover;
+            height: 200px;
+            margin-bottom: 12px;
+            }
+
+            .header__info {
+            @extend %font-text-main;
+            @media (max-width:1023px) {
+             display: flex;
+             flex-direction: column;        
+    }      
+         } 
+         .header__br{
+            @media (max-width:1023px) {
+                display:none;
+                        
+       }      
+         }
+    }
+
+    &__window {
+        position: absolute;
+       left: 47px;
+      bottom: 76px;
+      @media (max-width:768px) {
+        left: 2px;
+    }      
+    }
+    
+    
+
+		&__text-block {
+            @extend %flex-center;
+            @extend %font-h3;
+            margin: 0px 5px;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            @media (max-width:768px) {
+                font-size: 24px;
+            }     
+		}
+
+		&__tel {
+            @extend %flex-center;
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background-color: $color-text-two;
+            margin-bottom: 10px;
+		}
 }
