@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/Glass/static/css/main.a168161d.css",
-    "main.js": "/Glass/static/js/main.fc4d7cc4.js",
+    "main.css": "/Glass/static/css/main.664a30ac.css",
+    "main.js": "/Glass/static/js/main.7a47575f.js",
+    "static/media/stock.mp4": "/Glass/static/media/stock.6a9c4ee82b7a8d26188f.mp4",
+    "static/media/executive.jpg": "/Glass/static/media/executive.99550bb68d64809864d0.jpg",
+    "static/media/Industrial.jpg": "/Glass/static/media/Industrial.64b67f772f9a3f519d65.jpg",
+    "static/media/financial.jpg": "/Glass/static/media/financial.4d5b69f0b2d9f45aa3cd.jpg",
     "static/media/skyscraper.jpg": "/Glass/static/media/skyscraper.bfaaef2732949e3b014c.jpg",
     "static/media/foto-three.jpg": "/Glass/static/media/foto-three.c251610515e72aacc9d4.jpg",
     "static/media/foto-two.jpg": "/Glass/static/media/foto-two.ebfda0722eda717bffa6.jpg",
@@ -12,14 +16,16 @@
     "static/media/NeueMontreal-Regular.woff2": "/Glass/static/media/NeueMontreal-Regular.7b5a8273648a9482e29f.woff2",
     "static/media/NeueMontreal-Bold.woff2": "/Glass/static/media/NeueMontreal-Bold.619088c231a5535fe2ec.woff2",
     "static/media/window.svg": "/Glass/static/media/window.924f32e0153c3273f9d98512ff4c63d1.svg",
+    "static/media/dekor.svg": "/Glass/static/media/dekor.04b8324fb921e2548d2654ca9eca2b35.svg",
     "static/media/logo.svg": "/Glass/static/media/logo.d61eaa9f7aa5dc13a54f27bfad60def7.svg",
     "static/media/tel.svg": "/Glass/static/media/tel.86001a5dca8180bbb2058652d08c283e.svg",
     "index.html": "/Glass/index.html",
-    "main.a168161d.css.map": "/Glass/static/css/main.a168161d.css.map",
-    "main.fc4d7cc4.js.map": "/Glass/static/js/main.fc4d7cc4.js.map"
+    "static/media/check.svg": "/Glass/static/media/check.675994ea55b87550df17016566708611.svg",
+    "main.664a30ac.css.map": "/Glass/static/css/main.664a30ac.css.map",
+    "main.7a47575f.js.map": "/Glass/static/js/main.7a47575f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a168161d.css",
-    "static/js/main.fc4d7cc4.js"
+    "static/css/main.664a30ac.css",
+    "static/js/main.7a47575f.js"
   ]
 }
