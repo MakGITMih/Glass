@@ -9,9 +9,11 @@
 }
 
 body {
+  @extend %font-text-main;
   font-family: 'NeueMontreal', sans-serif;
   color: $color-text-one;
   font-weight:450;
+
 }
 
 a.active {color:

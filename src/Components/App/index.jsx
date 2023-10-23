@@ -1,17 +1,17 @@
-import { Route, Routes } from 'react-router-dom';
+// import { Route, Routes,Link } from 'react-router-dom';
 
-import Header from '../Header';
-import Footer from '../Footer';
-import Slider from '../Slider';
-import MapYandex from '../MapYandex';
+import Header from '../../ProductPage/Header';
+import Footer from '../../ProductPage/Footer';
+// import Slider from '../Slider';
+// import MapYandex from '../MapYandex';
 import FAQ from '../../ProductPage/FAQ';
-import Gallery from '../../ProductPage/Gallery';
-import Home from '../../ProductPage/Home';
-import Services from '../../ProductPage/Services';
-import NotFound from '../../ProductPage/NotFound';
+// import Gallery from '../../ProductPage/Gallery';
+import Team from '../../ProductPage/Team';
+// import Services from '../../ProductPage/Services';
+// import NotFound from '../../ProductPage/NotFound';
 
 
-// import '../Styles/index.scss';
+import '../Styles/index.scss';
 
 function App() {
   return (
@@ -19,13 +19,8 @@ function App() {
 
         <Header></Header>
         {/* <Slider></Slider> */}
-        <Routes>
-          <Route path='/Glass' element={<Home></Home>}></Route>
-          <Route path='/faq' element={<FAQ></FAQ>} ></Route>
-          <Route path='/gallery' element={<Gallery></Gallery>}></Route>
-          <Route path='/services' element={<Services></Services>}></Route>
-          <Route path='*' element={<NotFound></NotFound>}></Route>
-        </Routes>
+        <FAQ></FAQ>
+        <Team></Team>
         <Footer></Footer>
       
     </div>
@@ -33,3 +28,12 @@ function App() {
 }
 
 export default App;
+
+
+{/* <Routes>
+          <Route path='/Glass' element={<Home></Home>}></Route>
+          <Route path='/faq' element={<FAQ></FAQ>}></Route>
+          <Route path='/gallery' element={<Gallery></Gallery>}></Route>
+          <Route path='/services' element={<Services></Services>}></Route>
+          <Route path='*' element={<NotFound></NotFound>}></Route>
+        </Routes> */}

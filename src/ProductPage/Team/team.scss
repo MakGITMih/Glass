@@ -1,0 +1,100 @@
+@import '../../Components/Styles/index.scss';
+
+
+
+.team {
+      background: linear-gradient(360deg, rgba(0, 96, 254, 0.80) 0%, #0060FE 100%);
+      width: 100%;
+      border-radius: 16px;
+      margin-top: -16px;
+
+      &__container {
+            display: flex;
+            flex-direction: column;
+            padding: 0px 3px;
+            position: relative;
+      }
+
+      &__title {
+            @extend %font-h2;
+            color: $color-text-three;
+            margin: 50px 0px;
+      }
+
+      &__about {
+            margin-bottom: 25px;
+      }
+
+      &__wrap-advantage {
+            display: flex;
+
+            gap: 15px;
+            margin-bottom: 25px;
+      }
+
+      &__advantage {
+            display: flex;
+            gap: 10px;
+
+      }
+
+      &__check {
+            flex-shrink: 0;
+            display: flex;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background-color: $color-text-two;
+      }
+
+      // &__text-advantage {}
+
+      &__wrap-block {
+            display: flex;
+            column-gap: 25px;
+      }
+
+      &__block {
+            z-index: 10;
+            width: 100%;
+            text-align: left;
+      }
+
+      &__wrap-img {
+
+            img {
+                  border-radius: 24px;
+                  object-fit: cover;
+            }
+      }
+
+      &__name {
+            @extend %font-h3;
+            margin: 5px 0px;
+      }
+
+      &__text {
+
+            text-align: left;
+      }
+
+      &__job {
+            margin-bottom: 10px;
+            @extend %font-text-main;
+      }
+
+      &__decor-one {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+
+      }
+
+      &__decor-two {
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+
+      }
+}
