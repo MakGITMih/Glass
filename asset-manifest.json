@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Glass/static/css/main.664a30ac.css",
-    "main.js": "/Glass/static/js/main.7a47575f.js",
-    "static/media/stock.mp4": "/Glass/static/media/stock.6a9c4ee82b7a8d26188f.mp4",
+    "main.css": "/Glass/static/css/main.6ae0134a.css",
+    "main.js": "/Glass/static/js/main.d9fd9a55.js",
+    "static/media/glass.mp4": "/Glass/static/media/glass.78533b3eb01ac7acff9d.mp4",
     "static/media/executive.jpg": "/Glass/static/media/executive.99550bb68d64809864d0.jpg",
     "static/media/Industrial.jpg": "/Glass/static/media/Industrial.64b67f772f9a3f519d65.jpg",
     "static/media/financial.jpg": "/Glass/static/media/financial.4d5b69f0b2d9f45aa3cd.jpg",
@@ -10,8 +10,14 @@
     "static/media/foto-three.jpg": "/Glass/static/media/foto-three.c251610515e72aacc9d4.jpg",
     "static/media/foto-two.jpg": "/Glass/static/media/foto-two.ebfda0722eda717bffa6.jpg",
     "static/media/home.jpg": "/Glass/static/media/home.bd2a94b5a4445300956d.jpg",
+    "static/media/ava2.jpg": "/Glass/static/media/ava2.10638dd84729c26ddc6f.jpg",
     "static/media/fakhverk.jpg": "/Glass/static/media/fakhverk.9183e478999f36c65eb0.jpg",
+    "static/media/ava1.jpg": "/Glass/static/media/ava1.379ca31b78866f257c58.jpg",
+    "static/media/ava3.jpg": "/Glass/static/media/ava3.938c0ff29b6db00c529e.jpg",
     "static/media/foto-one.jpg": "/Glass/static/media/foto-one.5ce03bed300162127596.jpg",
+    "static/media/ava6.jpg": "/Glass/static/media/ava6.829222143f037e97272b.jpg",
+    "static/media/ava4.jpg": "/Glass/static/media/ava4.29ed62afa8aaa478a843.jpg",
+    "static/media/ava5.jpg": "/Glass/static/media/ava5.d21f1fb1d2bb25462af5.jpg",
     "static/media/NeueMontreal-Medium.woff2": "/Glass/static/media/NeueMontreal-Medium.929d810ac94c5179d2a3.woff2",
     "static/media/NeueMontreal-Regular.woff2": "/Glass/static/media/NeueMontreal-Regular.7b5a8273648a9482e29f.woff2",
     "static/media/NeueMontreal-Bold.woff2": "/Glass/static/media/NeueMontreal-Bold.619088c231a5535fe2ec.woff2",
@@ -21,11 +27,11 @@
     "static/media/tel.svg": "/Glass/static/media/tel.86001a5dca8180bbb2058652d08c283e.svg",
     "index.html": "/Glass/index.html",
     "static/media/check.svg": "/Glass/static/media/check.675994ea55b87550df17016566708611.svg",
-    "main.664a30ac.css.map": "/Glass/static/css/main.664a30ac.css.map",
-    "main.7a47575f.js.map": "/Glass/static/js/main.7a47575f.js.map"
+    "main.6ae0134a.css.map": "/Glass/static/css/main.6ae0134a.css.map",
+    "main.d9fd9a55.js.map": "/Glass/static/js/main.d9fd9a55.js.map"
   },
   "entrypoints": [
-    "static/css/main.664a30ac.css",
-    "static/js/main.7a47575f.js"
+    "static/css/main.6ae0134a.css",
+    "static/js/main.d9fd9a55.js"
   ]
 }
