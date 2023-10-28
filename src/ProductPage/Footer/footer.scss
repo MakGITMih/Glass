@@ -1,7 +1,60 @@
 @import '../../Components/Styles/index.scss';
 
-.footer {
-    @extend %container-main;
-    margin-top: auto; //прижал футер к низу экрана 
-}
 
+.footer {
+    background: $color-text-three;
+    color: $color-text-five;
+    padding: 0px 3px;
+    margin-top: -16px;
+    border-radius: 0px 0px 16px 16px;
+
+    &__container {
+        @extend %container-content;
+        margin-bottom: 32px;
+        
+    }
+
+    &__title {
+        @extend %font-h2;
+        color: $color-text-five;
+        margin: 50px 0px;
+    }
+
+    &__wrap-contacts {
+    }
+
+    &__contacts {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 32px;
+        gap: 10px;
+    }
+    
+    &__subtitle {
+        @extend %font-h4;
+        margin-bottom: 5px;
+    }
+
+    &__address {
+       display: flex;justify-content: space-between;
+       flex-direction: column;
+    }
+
+    &__map {
+        width: 100%;
+        height: 300px;
+        border-radius: 16px;
+    }
+
+    &__btn {
+        display:flex;
+        padding: 3px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 100px;
+        background: $color-bg;
+        color: $color-text-one;
+    }
+
+}

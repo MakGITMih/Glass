@@ -93,3 +93,12 @@ legend {
 	display: block;
 }
 
+/* Scroll */
+
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .element::-webkit-scrollbar {
+    width: 0;
+  }

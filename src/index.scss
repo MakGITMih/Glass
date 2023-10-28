@@ -1,6 +1,10 @@
 @import'./Components/Assets/Fonts';
 @import './Components/Styles/';
 
+html {
+  overflow-y: visible;
+}
+
 .App {
   @extend %container-main;
   display: flex;
@@ -13,7 +17,7 @@ body {
   font-family: 'NeueMontreal', sans-serif;
   color: $color-text-one;
   font-weight:450;
-
+  // overflow-y: hidden;
 }
 
 a.active {color:

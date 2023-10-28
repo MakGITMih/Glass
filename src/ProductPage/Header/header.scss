@@ -131,12 +131,10 @@
     &__project {
         display: flex;
         flex-direction: column;
-        // margin-bottom: 32px;
         z-index: 10;
 
         img {
             border-radius: 24px;
-
             width: 300px;
             object-fit: cover;
             height: 200px;
@@ -145,9 +143,8 @@
 
         .header__info {
             @extend %font-text-main;
-
-            @media (max-width:1023px) {
-                display: flex;
+            @media (max-width:1023px) {              
+                display: flex; 
                 flex-direction: column;
             }
         }
@@ -166,8 +163,14 @@
        
         bottom: 76px;
          
+        @media (max-width:990px) {
+            left: 35px;
+        }
 
-        @media (max-width:768px) {
+        @media (max-width:940px) {
+            left: 20px;
+        }
+        @media (max-width:910px) {
             left: 2px;
         }
     }
@@ -185,6 +188,10 @@
         @media (max-width:768px) {
             font-size: 24px;
         }
+    }
+
+    &__text-tel{
+        @extend %font-text-main ;
     }
 
     &__tel {

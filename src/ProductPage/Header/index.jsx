@@ -28,7 +28,7 @@ function Header() {
                             </NavLink>
                             <NavLink to={'/faq'} >
                                 <Link to='glass' smooth={true} duration = {1000}>
-                                    <li>Про стекло</li>
+                                    <li>Продукция</li>
                                     </Link>
                             </NavLink>
                             <NavLink to={''}>
@@ -37,13 +37,19 @@ function Header() {
                                 </Link>
                             </NavLink>
                             <NavLink to={'/gallery'}>
-                                <li>Наши работы</li>
+                            <Link to='work' smooth={true} duration = {1000}>
+                                <li>Наши работы</li> 
+                                </Link> 
                             </NavLink>
                             <NavLink to={'/services'}>
+                            <Link to='review' smooth={true} duration = {1000}>
                                 <li>Отзывы</li>
+                                </Link>  
                             </NavLink>
                             <NavLink to={''}>
+                            <Link to='contact' smooth={true} duration = {1000}>
                                 <li>Контакты</li>
+                                </Link> 
                             </NavLink>
                         </ul>
                     </div>
@@ -57,19 +63,20 @@ function Header() {
                         <div className="header__block">
                             <div className="header__project">
                                 <img src={Fakhverk} alt="" />
-                                <span className="header__info">Решения  для <span>частного</span><br className="header__br"/><span>строительства</span></span>
+                                <span className="header__info">Решения для <span>частного</span><br className="header__br"/><span>строительства</span></span>
                             </div>
                             <div className="header__project">
                                 <img src={Home} alt="" />
-                                <span className="header__info">Решения  для <span>жилого</span><br className="header__br"/> <span>строительства</span></span>
+                                <span className="header__info">Решения для <span>жилого</span><br className="header__br"/> <span>строительства</span></span>
                             </div>
                             <div className="header__project">
                                 <img src={Skyscraper} alt="" />
-                                <div className="header__info">Решения  для <span>коммерческого</span> <br className="header__br"/><span>строительства</span></div>
+                                <span className="header__info">Решения для <span>коммерческого</span> <br className="header__br"/><span>строительства</span></span>
                             </div>
                         </div>
                         <div className="header__text-block">
                          <a href="tel:+79998887766"> <div className="header__tel"><Tel></Tel></div></a>
+                         <div className="header__text-tel">+7 999 888 77 66</div>
                             <div className="header__text-block">
                                 <div>Готовые проекты<br/>для бизнеса,<br/>проверенные на<br/>практике </div>
                             </div>

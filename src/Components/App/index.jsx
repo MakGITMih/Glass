@@ -5,8 +5,9 @@ import Footer from '../../ProductPage/Footer';
 // import Slider from '../Slider';
 // import MapYandex from '../MapYandex';
 import FAQ from '../../ProductPage/FAQ';
-// import Gallery from '../../ProductPage/Gallery';
+import Gallery from '../../ProductPage/Gallery';
 import Team from '../../ProductPage/Team';
+import Reviews from '../../ProductPage/Reviews';
 // import Services from '../../ProductPage/Services';
 // import NotFound from '../../ProductPage/NotFound';
 
@@ -21,6 +22,9 @@ function App() {
         {/* <Slider></Slider> */}
         <FAQ></FAQ>
         <Team></Team>
+        <Gallery></Gallery>
+          <Reviews></Reviews>
+        
         <Footer></Footer>
       
     </div>

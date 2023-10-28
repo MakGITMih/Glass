@@ -1,18 +1,19 @@
 @import '../../Components/Styles/index.scss';
 
 
-
 .team {
       background: linear-gradient(360deg, rgba(0, 96, 254, 0.80) 0%, #0060FE 100%);
       width: 100%;
       border-radius: 16px;
       margin-top: -16px;
+      position: relative;
 
       &__container {
+            @extend %container-content;
             display: flex;
             flex-direction: column;
             padding: 0px 3px;
-            position: relative;
+            position: relative; 
       }
 
       &__title {
@@ -27,7 +28,6 @@
 
       &__wrap-advantage {
             display: flex;
-
             gap: 15px;
             margin-bottom: 25px;
       }
@@ -48,11 +48,10 @@
             background-color: $color-text-two;
       }
 
-      // &__text-advantage {}
-
       &__wrap-block {
             display: flex;
             column-gap: 25px;
+            margin-bottom: 32px;
       }
 
       &__block {

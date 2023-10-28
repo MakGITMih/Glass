@@ -10,10 +10,12 @@ import { ReactComponent as Check } from './check.svg';
 function Team() {
     return (
         <>
+         <div className='test'>
             <section className="team">
+               
                 <div className='team__container'>
                     <span className='team__title' id='about'>О нас</span>
-                    <span className='team__about'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veniam reprehenderit, repellat tempora modi ratione. Quis recusandae, ut tempore nostrum autem qui facilis, tempora id, odio eligendi ipsum totam voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veniam reprehenderit, repellat tempora modi ratione. Quis recusandae, ut tempore nostrum autem qui facilis, tempora id, odio eligendi ipsum totam voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veniam reprehenderit, repellat tempora modi ratione. Quis recusandae, ut tempore nostrum autem qui facilis, tempora id, odio eligendi ipsum totam voluptate.Quis recusandae, ut tempore nostrum autem qui facilis, tempora id, odio eligendi ipsum totam voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veniam reprehenderit, repellat tempora modi ratione. Quis recusandae, ut tempore nostrum autem qui facilis, tempora id, odio eligendi ipsum totam voluptate.</span>
+                    <span className='team__about'>В целом мы без всякого сомнения хороши! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veniam reprehenderit, repellat tempora modi ratione. Quis recusandae, ut tempore nostrum autem qui facilis, tempora id, odio eligendi ipsum totam voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veniam reprehenderit, repellat tempora modi ratione. Quis recusandae, ut tempore nostrum autem qui facilis, tempora id, odio eligendi ipsum totam voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veniam reprehenderit, repellat tempora modi ratione. Quis recusandae, ut tempore nostrum autem qui facilis, tempora id, odio eligendi ipsum totam voluptate.Quis recusandae, ut tempore nostrum autem qui facilis, tempora id, odio eligendi ipsum totam voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veniam reprehenderit, repellat tempora modi ratione. Quis recusandae, ut tempore nostrum autem qui facilis, tempora id, odio eligendi ipsum totam voluptate.</span>
                     <div className='team__wrap-advantage'>
                         <div className='team__advantage'>
                             <div className='team__check'><Check></Check></div>
@@ -23,17 +25,17 @@ function Team() {
                         <div className='team__advantage'>
                             <div className='team__check'><Check></Check></div>
                             <div className='team__text-advantage'>
-                            Все специалисты с высшим образованием и опытом работы главными проектировщиками и архитекторами</div>
+                            Все специалисты с высшим образованием и опытом работы lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
                         </div>
                         <div className='team__advantage'>
                             <div className='team__check'><Check></Check></div>
                             <div className='team__text-advantage'>
-                            По нашим проектам построено свыше 100 объектов в Удмуртии и России</div>
+                            По нашим проектам построено свыше lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
                         </div>
                         <div className='team__advantage'>
                             <div className='team__check'><Check></Check></div>
                             <div className='team__text-advantage'>
-                            Заказав проект, вы получаете проект отточенный годами на существующих проектах</div>
+                            Заказав проект, вы lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
                         </div>
 
                     </div>
@@ -67,8 +69,9 @@ function Team() {
                     <Dekor className='team__decor-one'></Dekor>
                     <Dekor className='team__decor-two'></Dekor>
                 </div>
-
+               
             </section>
+            </div>
         </>
     );
 }

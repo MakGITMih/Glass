@@ -5,6 +5,7 @@
     background:$color-text-three;
     margin-top: -16px; 
     &__container {
+        @extend %container-content;
         display: flex;
         flex-direction: column;
         color: $color-text-five;

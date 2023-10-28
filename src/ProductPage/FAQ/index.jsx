@@ -1,8 +1,8 @@
 
 import './faq.scss'
-// import FaqVideo from './glass.mp4'
-import FaqVideo from './stock.mp4'
-import { Link } from 'react-scroll';
+import FaqVideo from './glass.mp4'
+// import FaqVideo from './stock.mp4'
+// import { Link } from 'react-scroll';
 
 import FotoOne from './foto-one.jpg'
 import FotoTwo from './foto-two.jpg'
@@ -15,7 +15,7 @@ function Faq() {
     <>
       <div className='faq'>
         <div className='faq__container'>
-          <div className='faq__title' id='glass'>Про стекло</div>
+          <div className='faq__title' id='glass'>Наше стекло</div>
           <div className='faq__block'>
             <div className='faq__wrap-foto'>
               <img className='faq__foto' src={FotoOne} alt="" />
@@ -57,7 +57,6 @@ function Faq() {
             </div>
           </div>
         </div>
-       
             <div className="faq__video"> <video className="faq__video"
                 src={FaqVideo}
             autoPlay loop muted

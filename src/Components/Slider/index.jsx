@@ -7,66 +7,84 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination,EffectCube } from 'swiper/modules';
+import { Navigation, Pagination, EffectCube } from 'swiper/modules';
 
-import slider1 from './slider1.jpg'
-import slider2 from './slider2.jpg'
-import slider3 from './slider3.jpg'
-import slider4 from './slider4.jpg'
+import ava1 from './ava1.jpg'
+import ava2 from './ava2.jpg'
+import ava3 from './ava3.jpg'
+import ava4 from './ava4.jpg'
 
 const arr = [
     {
-        image: slider1,
-        title: 'Неожиданно коты'
+        image: ava1,
+        text: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ut eaque possimus placeat exercitationem reiciendis, expedita quaerat quibusdam sed minima tenetur officia maiores, rerum earum veritatis, nihil laudantium quidem dignissimos!',
+        name: 'Петр Овчинников',
+        who: 'Фермер'
     },
     {
-        image: slider2,
-        title: 'И еще коты'
+        image: ava2,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sequi accusamus delectus quisquam soluta perferendis! Laudantium cupiditate obcaecati corporis fugiat, porro voluptates qui tenetur consequuntur mollitia laboriosam quos beatae accusamus?',
+        name: 'Юлия Евсеева',
+        who: 'Менеджер по опту'
     },
     {
-        image: slider3,
-        title: 
-        'Опять немного котов'
+        image: ava3,
+        text:
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus odit voluptatibus voluptatum ratione inventore placeat reiciendis ea facere! Officiis dignissimos nulla sit a nobis necessitatibus molestias minima neque nemo alias.',
+        name: 'Николай Тетерин',
+        who: 'Технический надзор'
     },
     {
-        image: slider4,
-        title: 'И наконец много котов!'
+        image: ava4,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nulla id recusandae error ad! Quasi itaque rerum quod commodi, sed iusto labore animi vitae qui dolorum, perferendis asperiores nulla quam.',
+        name: 'Ульяна Молчанова',
+        who: 'Менеджер по закупкам',
     },
 ]
 
 
-function Slider () {
+function Slider() {
     return (
-        <section className='slider'>
-            <div className='swiper'>
-                <Swiper className='swiper-wrapper'
-                   effect={'cube'}
-                   cubeEffect={{
-                    shadow: true,
-                    slideShadows: true,
-                    shadowOffset: 20,
-                    shadowScale: 0.94,
-                  }}
-                //    spaceBetween={20}
-                //     slidesPerView={2}
-                    grabCursor true
-                    loop={true}
-                    speed={800}
-                    pagination={{
-                        type: 'fraction',
-                    }}
-                    navigation={true}
-                    modules={[Pagination, Navigation,EffectCube]}
-                >
-                    {arr.map((item) => (
-                        <SwiperSlide className='swiper-slide' key={item.image}>
-                            <h3 className='slider__subtitle'>{item.title}</h3>
-                                <img src={item.image} alt={item.title} />
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
+        // <section className='slider'>
+            <div className='slider__wrap'>
+
+        <Swiper
+            //  className='swiper-wrapper'
+            effect={'cube'}
+            cubeEffect={{
+                // shadow: true,
+                // slideShadows: true,
+                // shadowOffset: 20,
+                // shadowScale: 0.94,
+            }}
+            //    spaceBetween={20}
+            //     slidesPerView={2}
+            grabCursor true
+            loop={true}
+            speed={800}
+            pagination={{
+                type: 'fraction',
+            }}
+            navigation={true}
+            modules={[Pagination, Navigation, EffectCube]}
+        >
+            {arr.map((item) => (
+                <SwiperSlide key={item.image}>
+                    <div className='slider__container'>
+                        <div className='slider__wrap-img'>
+                            <img src={item.image} alt={item.title} />
+                        </div>
+                        <div className='slider__wrap-text'>
+                            <div className='slider__text'>{item.text}</div>
+                            <div className='slider__name'>{item.name}</div>
+                            <div className='slider__who'>{item.who}</div>
+                        </div>
+                    </div>
+                </SwiperSlide>
+            ))}
+        </Swiper>
             </div>
-        </section>
+        // </section>
     );
 }
 
