@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Glass/static/css/main.51fb55c5.css",
-    "main.js": "/Glass/static/js/main.a6727e00.js",
+    "main.css": "/Glass/static/css/main.1ce070d3.css",
+    "main.js": "/Glass/static/js/main.b38738ca.js",
     "static/media/glass.mp4": "/Glass/static/media/glass.78533b3eb01ac7acff9d.mp4",
     "static/media/executive.jpg": "/Glass/static/media/executive.99550bb68d64809864d0.jpg",
     "static/media/Industrial.jpg": "/Glass/static/media/Industrial.64b67f772f9a3f519d65.jpg",
@@ -26,13 +26,14 @@
     "static/media/logo.svg": "/Glass/static/media/logo.d61eaa9f7aa5dc13a54f27bfad60def7.svg",
     "static/media/tel.svg": "/Glass/static/media/tel.86001a5dca8180bbb2058652d08c283e.svg",
     "index.html": "/Glass/index.html",
+    "static/media/bars.svg": "/Glass/static/media/bars.c470248bb1311c2f9523fe99e1701ba7.svg",
     "static/media/check.svg": "/Glass/static/media/check.675994ea55b87550df17016566708611.svg",
     "static/media/icon-close.svg": "/Glass/static/media/icon-close.a550795a5fd03667f18550c682f199a1.svg",
-    "main.51fb55c5.css.map": "/Glass/static/css/main.51fb55c5.css.map",
-    "main.a6727e00.js.map": "/Glass/static/js/main.a6727e00.js.map"
+    "main.1ce070d3.css.map": "/Glass/static/css/main.1ce070d3.css.map",
+    "main.b38738ca.js.map": "/Glass/static/js/main.b38738ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.51fb55c5.css",
-    "static/js/main.a6727e00.js"
+    "static/css/main.1ce070d3.css",
+    "static/js/main.b38738ca.js"
   ]
 }
