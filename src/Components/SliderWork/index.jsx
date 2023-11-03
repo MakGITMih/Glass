@@ -55,14 +55,27 @@ function SliderWork() {
         //     <div className='swiper'>
 
         <Swiper
-            //  className='swiper width'
-            //    spaceBetween={10}
-
+             className='swiper width'
+               spaceBetween={10}
+            breakpoints={{
+                768: {
+                  slidesPerView:2,
+                  spaceBetween: 10,
+                },
+                // 768: {
+                //   slidesPerView:1,
+                //   spaceBetween: 40,
+                // },
+                // 1024: {
+                //   slidesPerView: 2,
+                //   spaceBetween: 10,
+                // },
+              }}
 
             effect={'coverflow'}
             grabCursor={true}
             centeredSlides={true}
-            slidesPerView={2}
+            // slidesPerView={2}
             coverflowEffect={{
                 rotate: 50,
                 stretch: 0,

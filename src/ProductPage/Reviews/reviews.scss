@@ -16,12 +16,17 @@
         @extend %font-h2;
         color: $color-text-three;
         margin: 50px 0px;
+        @media (max-width:380px) {
+            font-size: 58px;
+            margin: 20px 0px;
+        }
     }
 
     &__wrap-block {
         display: flex;
         margin-bottom: 32px;
-        @media (max-width:768px) {
+
+        @media (max-width:960px) {
             flex-wrap: wrap;
             text-align: center;
             justify-content: center;

@@ -17,13 +17,13 @@ import ava4 from './ava4.jpg'
 const arr = [
     {
         image: ava1,
-        text: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ut eaque possimus placeat exercitationem reiciendis, expedita quaerat quibusdam sed minima tenetur officia maiores, rerum earum veritatis, nihil laudantium quidem dignissimos!',
+        text: ' Lorem ipsum dolor sit amet consectetur elit. Architecto ut eaque possimus placeat exercitationem reiciendis, expedita quaerat quibusdam sed minima tenetur officia maiores, rerum earum veritatis, nihil laudantium quidem dignissimos!',
         name: 'Петр Овчинников',
         who: 'Фермер'
     },
     {
         image: ava2,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sequi accusamus delectus quisquam soluta perferendis! Laudantium cupiditate obcaecati corporis fugiat, porro voluptates qui tenetur consequuntur mollitia laboriosam quos beatae accusamus?',
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sequi accusamus delectus quisquam soluta perferendis! Laudantium cupiditate obcaecati corporis fugiat,accusamus?',
         name: 'Юлия Евсеева',
         who: 'Менеджер по опту'
     },
@@ -49,7 +49,7 @@ function Slider() {
             <div className='slider__wrap'>
 
         <Swiper
-            //  className='swiper-wrapper'
+             className='swiper-wrapper'
             effect={'cube'}
             cubeEffect={{
                 // shadow: true,
@@ -67,6 +67,9 @@ function Slider() {
             }}
             navigation={true}
             modules={[Pagination, Navigation, EffectCube]}
+          
+                
+             
         >
             {arr.map((item) => (
                 <SwiperSlide key={item.image}>
@@ -75,7 +78,7 @@ function Slider() {
                             <img src={item.image} alt={item.title} />
                         </div>
                         <div className='slider__wrap-text'>
-                            <div className='slider__text'>{item.text}</div>
+                            <span className='slider__text'>{item.text}</span>
                             <div className='slider__name'>{item.name}</div>
                             <div className='slider__who'>{item.who}</div>
                         </div>
@@ -83,7 +86,7 @@ function Slider() {
                 </SwiperSlide>
             ))}
         </Swiper>
-            </div>
+              </div>
         // </section>
     );
 }

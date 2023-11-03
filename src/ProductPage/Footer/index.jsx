@@ -1,13 +1,16 @@
+
+import React, { useState } from 'react';
+
 import './footer.scss';
 
 import MapYandex from '../../Components/MapYandex';
-
-
+import Modal from '../../Components/Modal/index.jsx';
+import  Email  from '../../Components/Email/index.jsx';
 
 function Footer() {
 
 
-
+  const [modalInfoIsOpen, setModalInfoOpen] = useState(false);
 
   return (
     <>
@@ -41,10 +44,19 @@ function Footer() {
                 <div className='footer__subtitle'>Обратная связь:</div>
                 <div className=''>Если у вас возникли вопросы</div>
                 <div className=''>свяжитесь с нами!</div>
-                <button className='footer__btn'>Связаться</button>
-                
+                <button className='footer__btn'
+                  onClick={() => setModalInfoOpen(true)}
+                >Связаться</button>
+                <Modal
+                  isOpen={modalInfoIsOpen}
+                  onClose={() => setModalInfoOpen(false)}
+                >
+                  <h2 className='footer__modal-title'>Обратная связь</h2>
+                  <p className='footer__modal-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime doloremque saepe in perspiciatis esse pariatur exercitationem praesentium laudantium tempora quidem, nisi eveniet consequatur aperiam at soluta quam adipisci repellendus illum?</p>
+                  <Email></Email>
+                </Modal>
               </div>
-             
+
             </div>
             <div className='footer__map'>
               <MapYandex></MapYandex>

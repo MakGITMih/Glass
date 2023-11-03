@@ -19,7 +19,6 @@ function App() {
     <div className="App">
 
         <Header></Header>
-        {/* <Slider></Slider> */}
         <FAQ></FAQ>
         <Team></Team>
         <Gallery></Gallery>

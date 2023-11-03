@@ -31,6 +31,7 @@
 
 .swiper-pagination-fraction {
    
+    padding: 15px;
 }
 
 //------------------Slidе-----------
@@ -43,10 +44,11 @@
 
     &__title {
         @extend %font-h4 ;
+        text-align: center;
     }
 
     &__wrap-imges {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
       
         img{
             object-fit: cover;

@@ -18,7 +18,7 @@ function Faq() {
           <div className='faq__title' id='glass'>Наше стекло</div>
           <div className='faq__block'>
             <div className='faq__wrap-foto'>
-              <img className='faq__foto' src={FotoOne} alt="" />
+              <img className='faq__foto' src={FotoThree} alt="" />
             </div>
             <div className='faq__block-text'>
               <div className='faq__subtitle' >Subtitle One</div>
@@ -26,7 +26,7 @@ function Faq() {
                 Rem veniam inventore minus asperiores in aut pariatur vitae sunt reiciendis ut? Impedit voluptas doloremque dolorem. Quidem nesciunt exercitationem dignissimos esse quas, perspiciatis est soluta maiores cum tenetur debitis. Dolorum.</div>
             </div>
           </div>
-          <div className='faq__block'>
+          <div className='faq__block-two'>
             <div className='faq__block-text'>
               <div className='faq__subtitle' >Subtitle Two</div>
               <div className='faq__text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor nam nulla mollitia dolorem, tempore cum. Repellat esse accusamus ea minima possimus, dolorem et repudiandae, ratione officiis facere quaerat dolor sapiente.Debitis et dignissimos rem praesentium incidunt ducimus ab odit iusto recusandae aliquid, voluptates ipsam magni suscipit a, laudantium ut veritatis. Dolores harum iste molestias dicta fugit consequatur fugiat obcaecati. Quaerat.
@@ -39,7 +39,7 @@ function Faq() {
           </div>
           <div className='faq__block'>
             <div className='faq__wrap-foto'>
-              <img className='faq__foto' src={FotoThree} alt="" />
+              <img className='faq__foto' src= {FotoOne}alt="" />
             </div>
             <div className='faq__block-text'>
               <div className='faq__subtitle' >Subtitle Three</div>

@@ -1,3 +1,26 @@
+# Project 'Glass'
+
+## Used Technologies:
+### React JS 18
+Functional Components\
+Props\
+React Hooks\
+React Router\ 
+React Scroll
+### SASS/SCSS
+### BEM methodology
+### Conditional rendering
+### Adaptive cross-browser layout
+### Media queries 
+
+## Implemented:
+### Yandex maps integration 
+### Modal window
+### Slider swiper
+### Adaptive burger menu
+### Sending the form by email
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

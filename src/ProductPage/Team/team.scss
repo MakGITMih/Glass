@@ -20,6 +20,10 @@
             @extend %font-h2;
             color: $color-text-three;
             margin: 50px 0px;
+            @media (max-width:380px) {
+                  font-size: 58px;
+                  margin: 20px 0px;
+              }
       }
 
       &__about {
@@ -30,6 +34,9 @@
             display: flex;
             gap: 15px;
             margin-bottom: 25px;
+            @media ( max-width: 768px){
+                  flex-wrap: wrap;
+               }
       }
 
       &__advantage {
@@ -51,13 +58,17 @@
       &__wrap-block {
             display: flex;
             column-gap: 25px;
-            margin-bottom: 32px;
+            // margin-bottom: 24px;
+            @media ( max-width: 768px){
+                  flex-wrap: wrap;
+               }
       }
 
       &__block {
             z-index: 10;
             width: 100%;
             text-align: left;
+            margin-bottom: 24px;
       }
 
       &__wrap-img {
@@ -70,7 +81,7 @@
 
       &__name {
             @extend %font-h3;
-            margin: 5px 0px;
+            margin: 10px 0px;
       }
 
       &__text {

@@ -16,6 +16,10 @@
         @extend %font-h2;
         color: $color-text-five;
         margin: 50px 0px;
+        @media (max-width:380px) {
+            font-size: 58px;
+            margin: 20px 0px;
+        }
     }
 
     
@@ -24,6 +28,19 @@
         display: flex;
         gap: 15px;
         margin-bottom: 30px;
+
+        @media ( max-width: 768px){
+            flex-direction: column;
+         }
+    }
+    &__block-two{
+        display: flex;
+        gap: 15px;
+        margin-bottom: 30px;
+
+        @media ( max-width: 768px){
+            flex-direction: column-reverse;
+         }
     }
 
     &__wrap-foto {

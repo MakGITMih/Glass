@@ -1,0 +1,70 @@
+@import '../Styles/index.scss';
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $color-text-five;
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 80%;
+        margin-bottom: 24px;
+    }
+
+    &__title {
+        margin-bottom: 5px;
+    }
+
+    &__text {
+        border-radius: 8px;
+        background: rgba(40, 92, 174, 0.10);
+        padding: 10px;
+        color: $color-text-two;
+        
+    }
+
+    &__text:focus{
+        box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    }
+
+    &__wrap-btn {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    &__wrap-submit {
+        padding: 3px 10px;
+        border-radius: 16px;
+        background: $color-bg;
+        color: $color-text-one;
+    }
+
+    &__submit {}
+
+    &__wrap-reset {
+        padding: 3px 10px;
+        border-radius: 16px;
+        background: $color-bg;
+        color: $color-text-one;
+    }
+
+    &__reset {}
+
+    &__textarea {
+        display: block;
+        border-radius: 8px;
+        background: rgba(40, 92, 174, 0.10);
+        padding: 10px;
+        color: $color-text-two;
+        min-height: 150px;
+    }
+    &__textarea:focus{
+        box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    }
+
+}
