@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Glass/static/css/main.df002e82.css",
+    "main.css": "/Glass/static/css/main.ab9600ae.css",
     "main.js": "/Glass/static/js/main.fa370878.js",
     "static/media/glass.mp4": "/Glass/static/media/glass.78533b3eb01ac7acff9d.mp4",
     "static/media/executive.jpg": "/Glass/static/media/executive.99550bb68d64809864d0.jpg",
@@ -29,11 +29,11 @@
     "static/media/bars.svg": "/Glass/static/media/bars.c470248bb1311c2f9523fe99e1701ba7.svg",
     "static/media/check.svg": "/Glass/static/media/check.675994ea55b87550df17016566708611.svg",
     "static/media/icon-close.svg": "/Glass/static/media/icon-close.a550795a5fd03667f18550c682f199a1.svg",
-    "main.df002e82.css.map": "/Glass/static/css/main.df002e82.css.map",
+    "main.ab9600ae.css.map": "/Glass/static/css/main.ab9600ae.css.map",
     "main.fa370878.js.map": "/Glass/static/js/main.fa370878.js.map"
   },
   "entrypoints": [
-    "static/css/main.df002e82.css",
+    "static/css/main.ab9600ae.css",
     "static/js/main.fa370878.js"
   ]
 }
