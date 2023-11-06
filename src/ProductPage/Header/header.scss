@@ -25,9 +25,17 @@
         background: $color-text-seven;
         border-radius: 16px;
 
-        @media ( max-width: 625px){
+        @media ( max-width: 935px){
             padding: 18px;
          }
+         @media ( max-width: 900px){
+           flex-wrap: wrap;
+           justify-content: center;
+         }
+         @media ( max-width: 740px){
+            flex-wrap: nowrap;
+           
+          }
 
         @media ( max-width: 600px){
             position: fixed;
@@ -35,12 +43,12 @@
             left: -250px;
             display: flex;
             flex-direction: column;
-            justify-content: start;
+            justify-content: space-between;
             text-align: center;
             // padding: 18px;
             width: 220px;
             height: 100%;
-            max-height: 320px;
+            max-height: 310px;
             margin:15px 3px ;
             background-color: $color-text-four;
             z-index: 100000;
@@ -105,11 +113,20 @@
 
     &__wrap-paragraph {
         @extend %flex-center;
-        flex-wrap: wrap;
+        // width: 100%;
+
+        @media ( max-width: 900px){
+           
+            justify-content: space-between;
+          }
+        @media ( max-width: 740px){
+            flex-wrap: wrap;
+            justify-content: center;
+          }
 
         li {
             @extend %font-h4;
-            flex-wrap: wrap;
+            // flex-wrap: wrap;
             position: relative;
             cursor: pointer;
             margin: 5px 5px;

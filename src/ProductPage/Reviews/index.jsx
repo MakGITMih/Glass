@@ -16,9 +16,9 @@ function Reviews() {
                     <Slider></Slider>
                 </div>
                 </div>
-                <Dekor className='reviews__decor-one'></Dekor>
+                
             </div>
-           
+            <Dekor className='reviews__decor-one'></Dekor>
         </section>
     );
 }

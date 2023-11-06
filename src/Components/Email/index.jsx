@@ -10,11 +10,7 @@ function Email() {
         e.preventDefault();
 
 
-        emailjs.sendForm('service_olbddlw', 'template_r9trjsq', form.current, 
-         ''
-        // 'DbXjlGnWshk_pXCED'
-
-        )
+        emailjs.sendForm('service_olbddlw', 'template_r9trjsq', form.current,'DbXjlGnWshk_pXCED')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -36,14 +32,17 @@ function Email() {
             </div>
             <div className='form__wrap'>
                 <label className='form__title' for='message'>Сообщение</label>
-                <textarea className='form__textarea' name="message" id="message" placeholder='Оставьте ваше сообщение'/>
+                <textarea className='form__textarea' name="message" id="message" placeholder=
+                // 'Оставьте ваше сообщение'
+                'Отправка формы на почту работает! Просто кнопка временно отключена (:'
+                /> 
             </div>
             <div className='form__wrap-btn'>
                 <div className='form__wrap-reset'>
                     <input className='form__reset' type="reset" value="Очистить" />
                 </div>
                 <div className='form__wrap-submit'>
-                    <input className='form__submit' type="submit" value="Отправить" />
+                    <input className='form__submit'disabled type="submit" value="Отправить" />
                 </div>
             </div>
         </form>

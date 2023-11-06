@@ -66,7 +66,9 @@ function Slider() {
                 type: 'fraction',
             }}
             navigation={true}
-            modules={[Pagination, Navigation, EffectCube]}
+            modules={[
+                // Pagination,
+                 Navigation, EffectCube]}
           
                 
              

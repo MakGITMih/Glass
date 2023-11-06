@@ -45,22 +45,22 @@ function Header() {
                             </Link>
                             <Link to='about' smooth={true} duration={1000}>
                                 <NavLink to={''}>
-                                    <li >О нас</li>
+                                    <li >О&nbsp;нас</li>
                                 </NavLink>
                             </Link>
                             <Link to='work' smooth={true} duration={1000}>
                                 <NavLink to={'/gallery'}>
-                                    <li>Наши работы</li>
+                                    <li>Наши&nbsp;работы</li>
                                 </NavLink>
                             </Link>
                             <Link to='review' smooth={true} duration={1000}>
-                                <NavLink to={'/services'}>
-                                    <li>Отзывы</li>
+                                <NavLink to={'/services'}>                               
+                                    <li>Отзывы</li>                                   
                                 </NavLink>
                             </Link>
                             <Link to='contact' smooth={true} duration={1000}>
-                                <NavLink to={'/contact'}>
-                                    <li>Контакты</li>
+                                <NavLink to={'/contact'}>                              
+                                    <li>Контакты</li>                                 
                                 </NavLink>
                             </Link>
                         </ul>

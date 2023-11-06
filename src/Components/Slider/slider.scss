@@ -14,36 +14,37 @@
 
 .slider__wrap {
     width: 55vh;
+    height: 230px;
 
     // border-radius: 16px;
     @media (max-width: 960px) {
         width: 90vh;
-        height: 200px;
+        height: 190px;
     }
-    @media (max-width: 750px) {
+    @media (max-width: 760px) {
         width: 70vh;
-        height: 230px;
+        height: 210px;
     }
-    @media (max-width: 580px) {
+    @media (max-width: 600px) {
         width: 50vh;
-        height: 285px;
+        height: 260px;
     }
     
-    @media (max-width: 425px) {
+    @media (max-width: 430px) {
         width: 45vh;
-        height: 335px;
+        height: 285px;
     }
     @media (max-width: 380px) {
         width: 40vh;
-        height: 350px;
+        height: 360px;
     }
-    @media (max-width: 380px) {
-        width: 40vh;
-        height: 350px;
-    }
-    @media (max-width: 335px) {
+    // @media (max-width: 380px) {
+    //     width: 40vh;
+    //     height: 350px;
+    // }
+    @media (max-width: 340px) {
         width: 35vh;
-        height: 350px;
+        height: 375px;
     }
 }
 
@@ -80,19 +81,19 @@
     &__container {
         display: flex;
         justify-content: space-between;
-        height: 250px;
+        height: 400px;
         // margin: 0px 15px;
         border-radius: 16px;
         background: rgba(255, 255, 255, 0.10);
 
-        @media (max-width: 580px) {
+        // @media (max-width: 580px) {
            
-            height: 285px;
-        }
-        @media (max-width: 505px) {
+        //     height: 285px;
+        // }
+        // @media (max-width: 505px) {
            
-            height: 350px;
-        }
+        //     height: 300px;
+        // }
 
         @media (max-width: 380px) {
            flex-wrap: wrap;
@@ -129,9 +130,9 @@
         margin: 25px 0px;
         margin-bottom: 20px;
 
-        @media (max-width: 380px) {
-            margin: 0px 0px;
-         }
+        // @media (max-width: 380px) {
+        //     margin: 0px 0px;
+        //  }
     }
 
     &__name {}

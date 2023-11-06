@@ -36,7 +36,9 @@
     }
 
     &__text {
+        text-align: left;
     }
+    
 
     &__slider {
         border-radius: 16px;
@@ -45,9 +47,9 @@
     }
     &__decor-one {
         position: absolute;
-        right: 0px;
+       right: 0px;
         top: 0px;
-    
+   
     }
    
 }
